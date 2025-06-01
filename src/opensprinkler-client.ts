@@ -193,7 +193,7 @@ export class OpenSprinklerClient {
      *   - ssta: Shift remaining stations in the same group (0 or 1, only applicable if en=0)
      * @returns Promise resolving to CommandResult
      */
-    async cmanualStationRun(
+    async manualStationRun(
         pw: string,
         params: {
             sid: number;
